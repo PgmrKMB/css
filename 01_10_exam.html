@@ -1,0 +1,52 @@
+<style>
+    #content {
+        background-color: lightgray;
+        text-align: center;
+    }
+    /* div>h1{display: inline} */
+    div>ul>li{font-size:10px;}
+    #content div {
+        border-radius: 20px;
+        margin: 10px;
+        display: inline-block;
+        background-color: white;
+    }
+    #content div:nth-child(1) ul{
+        color: aqua;
+    }
+
+    #content div:nth-child(2) ul{
+        color: red;
+    }
+
+    #content div:nth-child(3) ul{
+        color: plum;
+    }
+
+</style>
+
+<body>
+    <div id="content">
+        <div>
+            <h3>공지사항1</h4>
+            <ul>
+                <li>게시물_01</li>
+                <li>게시물_02</li>
+            </ul>
+        </div>
+        <div>
+            <h1>공지사항2</h1>
+            <ul>
+                <li>게시물_a</li>
+                <li>게시물_b</li>
+            </ul>
+        </div>
+        <div>
+            <h1>공지사항3</h1>
+            <ul>
+                <li>게시물_0a</li>
+                <li>게시물_0b</li>
+            </ul>
+        </div>
+    </div>
+</body>
